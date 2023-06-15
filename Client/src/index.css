@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* importing the needed fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+/* Accessing the layer base of this project */
+@layer base{
+    html{
+        background-color: #E9E9E9;
+    }
+}
